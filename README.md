@@ -1,3 +1,11 @@
+# KCC Original Image
+
+This is a version of KCC, the Kindle Comic Converter, that uses the original images passed to it rather than modifying them. This is useful for cases when the images have already been optimized for file size.
+
+Click [here](https://github.com/ciromattia/kcc/compare/master...alexhad6:kcc-original-image:master) to see all changes from the original repository.
+
+---
+
 # KCC
 
 [![GitHub release](https://img.shields.io/github/release/ciromattia/kcc.svg)](https://github.com/ciromattia/kcc/releases) [![PyPI](https://img.shields.io/pypi/v/KindleComicConverter.svg)](https://pypi.python.org/pypi/KindleComicConverter) [![AUR](https://img.shields.io/aur/version/kcc.svg)](https://aur.archlinux.org/packages/kcc/)
