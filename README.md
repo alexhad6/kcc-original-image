@@ -6,7 +6,7 @@ Click [here](https://github.com/ciromattia/kcc/compare/master...alexhad6:kcc-ori
 
 ---
 
-# KCC
+# KCC (Original README)
 
 [![GitHub release](https://img.shields.io/github/release/ciromattia/kcc.svg)](https://github.com/ciromattia/kcc/releases) [![PyPI](https://img.shields.io/pypi/v/KindleComicConverter.svg)](https://pypi.python.org/pypi/KindleComicConverter) [![AUR](https://img.shields.io/aur/version/kcc.svg)](https://aur.archlinux.org/packages/kcc/)
 
