@@ -241,7 +241,8 @@ class ComicPage:
                 self.image.save(self.targetPath, 'PNG', optimize=1)
             else:
                 self.targetPath += '.jpg'
-                self.image.save(self.targetPath, 'JPEG', optimize=1, quality=85)
+                # self.image.save(self.targetPath, 'JPEG', optimize=1, quality=85)
+                os.rename(self.orgPath, self.targetPath)
             return [md5Checksum(self.targetPath), flags, self.orgPath]
         except IOError as err:
             raise RuntimeError('Cannot save image. ' + str(err))
